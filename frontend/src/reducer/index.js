@@ -8,6 +8,7 @@ import viewCourseReducer from "../slices/viewCourseSlice"
 
 const rootReducer = combineReducers({
   auth: authReducer,
+  
   profile: profileReducer,
   course: courseReducer,
   cart: cartReducer,
